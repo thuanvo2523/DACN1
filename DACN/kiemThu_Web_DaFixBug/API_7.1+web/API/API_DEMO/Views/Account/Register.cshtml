@@ -1,0 +1,121 @@
+﻿@model API_DEMO.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Register</h1>
+
+<form asp-action="Register" asp-controller="Account" method="post" id="tableRegister">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="TaiKhoan"></label>
+        <input asp-for="TaiKhoan" class="form-control" id="TaiKhoan" name="TaiKhoan" required />
+        <span asp-validation-for="TaiKhoan" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MatKhau"></label>
+        <input asp-for="MatKhau" type="password" class="form-control" id="MatKhau" name="MatKhau" required />
+        <span asp-validation-for="MatKhau" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ten"></label>
+        <input asp-for="Ten" class="form-control" id="Ten" name="Ten" required />
+        <span asp-validation-for="Ten" class="text-danger"></span>
+    </div>
+
+@*     <div class="form-group">
+        <label asp-for="Avatar"></label>
+        <input asp-for="Avatar" type="file" class="form-control" />
+        <span asp-validation-for="Avatar" class="text-danger"></span>
+    </div> *@
+
+@*     <div class="form-group">
+        <label asp-for="MoMo"></label>
+        <input asp-for="MoMo" class="form-control" />
+        <span asp-validation-for="MoMo" class="text-danger"></span>
+    </div> *@
+
+    <div class="form-group">
+        <label asp-for="SoDienThoai"></label>
+        <input asp-for="SoDienThoai" class="form-control" id="SoDienThoai" name="SoDienThoai" required />
+        <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+    </div>
+
+@*     <div class="form-group">
+        <label asp-for="DiaChi"></label>
+        <input asp-for="DiaChi" class="form-control" />
+        <span asp-validation-for="DiaChi" class="text-danger"></span>
+    </div> *@
+
+@*     <div class="form-group">
+        <label asp-for="OTP"></label>
+        <input asp-for="OTP" class="form-control" />
+        <span asp-validation-for="OTP" class="text-danger"></span>
+    </div> *@
+
+    <div class="form-group " style="margin:5px">
+        <input type="submit" value="Register" class="btn btn-primary" />
+    </div>
+</form>
+<script>
+    document.getElementById('tableRegister').addEventListener('submit', function (e) {
+        e.preventDefault(); // Ngăn chặn việc submit form mặc định
+
+        const url = '/api/TaiKhoan/dangKyTaiKhoan1';
+        // Lấy dữ liệu từ các trường input
+        const taiKhoan = document.getElementById('TaiKhoan').value;
+        const matKhau = document.getElementById('MatKhau').value;
+        const ten = document.getElementById('Ten').value;
+        const soDienThoai = document.getElementById('SoDienThoai').value;
+
+
+        var USERNAME_PATTERN = /^[0-9A-Za-z]{8,20}$/;
+        var PASSWORD_PATTERN = /^(?=.*?[0-9])(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[^0-9A-Za-z]).{8,20}$/;
+        var FULLNAME_PATTERN = /[^a-z0-9A-Z_àáãạảăắằẳẵặâấầẩẫậèéẹẻẽêềếểễệđìíĩỉịòóõọỏôốồổỗộơớờởỡợùúũụủưứừửữựỳỵỷỹýÀÁÃẠẢĂẮẰẲẴẶÂẤẦẨẪẬÈÉẸẺẼÊỀẾỂỄỆĐÌÍĨỈỊÒÓÕỌỎÔỐỒỔỖỘƠỚỜỞỠỢÙÚŨỤỦƯỨỪỬỮỰỲỴỶỸÝ]/u;
+        var PHONENUMBER_PATTERN = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+        if(!USERNAME_PATTERN.test(taiKhoan)){
+            alert("Sai định dạng tài khoản");
+        }
+        else if(!PASSWORD_PATTERN.test(matKhau)){
+            alert("Sai định dạng mật khẩu");
+        }
+        else if(!FULLNAME_PATTERN.test(ten)){
+            alert("Sai định dạng tên");
+        }
+        else if(!PHONENUMBER_PATTERN.test(soDienThoai)){
+            alert("Sai định dạng số điện thoại");
+        }
+        else{
+            // Gửi dữ liệu lên server
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    taiKhoan: taiKhoan,
+                    matKhau: matKhau,
+                    ten: ten,
+                    soDienThoai: soDienThoai,
+                }),
+            })
+                .then(response => {
+                    if(response.ok){
+                        alert('Đăng ký thành công!');
+                        window.location.href = '/Home/index'; // Chuyển hướng về trang chủ
+                    }else{
+                        alert('Đã có tài khoản tồn tại');
+                    }
+                })
+                .catch(error => {
+                    // Xử lý lỗi khi gọi API đăng nhập
+                    console.error('Lỗi khi gọi API đăng nhập: ', error);
+                    // Hiển thị thông báo lỗi cho người dùng
+                });
+        }
+    });
+</script>

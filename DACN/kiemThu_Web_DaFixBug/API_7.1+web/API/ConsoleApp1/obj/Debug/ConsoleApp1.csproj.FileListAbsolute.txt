@@ -1,0 +1,17 @@
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\Twilio.dll
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\bin\Debug\Twilio.xml
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\ADMIN\Desktop\API\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

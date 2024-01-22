@@ -1,0 +1,118 @@
+C:\Users\ADMIN\Desktop\API\lib\bin\Debug\net7.0\lib.deps.json
+C:\Users\ADMIN\Desktop\API\lib\bin\Debug\net7.0\lib.runtimeconfig.json
+C:\Users\ADMIN\Desktop\API\lib\bin\Debug\net7.0\lib.dll
+C:\Users\ADMIN\Desktop\API\lib\bin\Debug\net7.0\lib.pdb
+C:\Users\ADMIN\Desktop\API\lib\obj\Debug\net7.0\lib.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\API\lib\obj\Debug\net7.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\API\lib\obj\Debug\net7.0\lib.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\API\lib\obj\Debug\net7.0\lib.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\API\lib\obj\Debug\net7.0\lib.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\API\lib\obj\Debug\net7.0\lib.dll
+C:\Users\ADMIN\Desktop\API\lib\obj\Debug\net7.0\refint\lib.dll
+C:\Users\ADMIN\Desktop\API\lib\obj\Debug\net7.0\lib.pdb
+C:\Users\ADMIN\Desktop\API\lib\obj\Debug\net7.0\lib.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\API\lib\obj\Debug\net7.0\ref\lib.dll
+C:\Users\thanh\Desktop\API\lib\bin\Debug\net7.0\lib.deps.json
+C:\Users\thanh\Desktop\API\lib\bin\Debug\net7.0\lib.runtimeconfig.json
+C:\Users\thanh\Desktop\API\lib\bin\Debug\net7.0\lib.dll
+C:\Users\thanh\Desktop\API\lib\bin\Debug\net7.0\lib.pdb
+C:\Users\thanh\Desktop\API\lib\obj\Debug\net7.0\lib.csproj.AssemblyReference.cache
+C:\Users\thanh\Desktop\API\lib\obj\Debug\net7.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thanh\Desktop\API\lib\obj\Debug\net7.0\lib.AssemblyInfoInputs.cache
+C:\Users\thanh\Desktop\API\lib\obj\Debug\net7.0\lib.AssemblyInfo.cs
+C:\Users\thanh\Desktop\API\lib\obj\Debug\net7.0\lib.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Desktop\API\lib\obj\Debug\net7.0\lib.dll
+C:\Users\thanh\Desktop\API\lib\obj\Debug\net7.0\refint\lib.dll
+C:\Users\thanh\Desktop\API\lib\obj\Debug\net7.0\lib.pdb
+C:\Users\thanh\Desktop\API\lib\obj\Debug\net7.0\lib.genruntimeconfig.cache
+C:\Users\thanh\Desktop\API\lib\obj\Debug\net7.0\ref\lib.dll
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\bin\Debug\net7.0\lib.deps.json
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\bin\Debug\net7.0\lib.runtimeconfig.json
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\bin\Debug\net7.0\lib.dll
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\bin\Debug\net7.0\lib.pdb
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\obj\Debug\net7.0\lib.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\obj\Debug\net7.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\obj\Debug\net7.0\lib.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\obj\Debug\net7.0\lib.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\obj\Debug\net7.0\lib.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\obj\Debug\net7.0\lib.dll
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\obj\Debug\net7.0\refint\lib.dll
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\obj\Debug\net7.0\lib.pdb
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\obj\Debug\net7.0\lib.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\API_7.0\API\lib\obj\Debug\net7.0\ref\lib.dll
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\bin\Debug\net7.0\lib.deps.json
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\bin\Debug\net7.0\lib.runtimeconfig.json
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\bin\Debug\net7.0\lib.dll
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\bin\Debug\net7.0\lib.pdb
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\obj\Debug\net7.0\lib.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\obj\Debug\net7.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\obj\Debug\net7.0\lib.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\obj\Debug\net7.0\lib.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\obj\Debug\net7.0\lib.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\obj\Debug\net7.0\lib.dll
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\obj\Debug\net7.0\refint\lib.dll
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\obj\Debug\net7.0\lib.pdb
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\obj\Debug\net7.0\lib.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\API_7.1+web\API\lib\obj\Debug\net7.0\ref\lib.dll
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\bin\Debug\net7.0\lib.deps.json
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\bin\Debug\net7.0\lib.runtimeconfig.json
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\bin\Debug\net7.0\lib.dll
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\bin\Debug\net7.0\lib.pdb
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\obj\Debug\net7.0\lib.csproj.AssemblyReference.cache
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\obj\Debug\net7.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\obj\Debug\net7.0\lib.AssemblyInfoInputs.cache
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\obj\Debug\net7.0\lib.AssemblyInfo.cs
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\obj\Debug\net7.0\lib.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\obj\Debug\net7.0\lib.dll
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\obj\Debug\net7.0\refint\lib.dll
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\obj\Debug\net7.0\lib.pdb
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\obj\Debug\net7.0\lib.genruntimeconfig.cache
+C:\Users\thanh\Desktop\tinhSau111\API_7.1+web\API\lib\obj\Debug\net7.0\ref\lib.dll
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\bin\Debug\net7.0\lib.deps.json
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\bin\Debug\net7.0\lib.runtimeconfig.json
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\bin\Debug\net7.0\lib.dll
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\bin\Debug\net7.0\lib.pdb
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\obj\Debug\net7.0\lib.csproj.AssemblyReference.cache
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\obj\Debug\net7.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\obj\Debug\net7.0\lib.AssemblyInfoInputs.cache
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\obj\Debug\net7.0\lib.AssemblyInfo.cs
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\obj\Debug\net7.0\lib.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\obj\Debug\net7.0\lib.dll
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\obj\Debug\net7.0\refint\lib.dll
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\obj\Debug\net7.0\lib.pdb
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\obj\Debug\net7.0\lib.genruntimeconfig.cache
+C:\Users\thanh\Desktop\22.12.23 đồ án\API_7.1+web\API\lib\obj\Debug\net7.0\ref\lib.dll
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\lib.deps.json
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\lib.runtimeconfig.json
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\lib.dll
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\lib.pdb
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.dll
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\refint\lib.dll
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.pdb
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\ref\lib.dll
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\lib.deps.json
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\lib.runtimeconfig.json
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\lib.dll
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\lib.pdb
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.dll
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\refint\lib.dll
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.pdb
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\lib.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\obj\Debug\net7.0\ref\lib.dll
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\NUnit3.TestAdapter.dll
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\NUnit3.TestAdapter.pdb
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\nunit.engine.dll
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\nunit.engine.api.dll
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\nunit.engine.core.dll
+C:\Users\ADMIN\Desktop\DACN\DACN\kiemThu_Web_DaFixBug\API_7.1+web\API\lib\bin\Debug\net7.0\testcentric.engine.metadata.dll

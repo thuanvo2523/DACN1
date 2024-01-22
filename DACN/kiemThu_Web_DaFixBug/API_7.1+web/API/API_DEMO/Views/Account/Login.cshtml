@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <!-- Các thẻ <link>, <style>, hoặc các tài nguyên khác cần thiết -->
+</head>
+<body>
+    <h1>Đăng nhập</h1>
+
+    <form asp-action="Login" asp-controller="Account" method="post" id="tableLogin">
+        <label for="username">Tên người dùng:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Đăng nhập</button>
+    </form>
+    <script>
+        document.getElementById('tableLogin').addEventListener('submit', function (e) {
+            e.preventDefault(); // Ngăn chặn việc submit form mặc định
+
+            const url = '/api/TaiKhoan/dangNhapTaiKhoan1';
+            // Lấy dữ liệu từ các trường input
+            const taiKhoan = document.getElementById('username').value;
+            const matKhau = document.getElementById('password').value;
+
+
+            var USERNAME_PATTERN = /^[0-9A-Za-z]{8,20}$/;
+            var PASSWORD_PATTERN = /^(?=.*?[0-9])(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[^0-9A-Za-z]).{8,20}$/;
+            if(!USERNAME_PATTERN.test(taiKhoan)){
+                alert("Sai định dạng tài khoản");
+            }
+            else if(!PASSWORD_PATTERN.test(matKhau)){
+                alert("Sai định dạng mật khẩu");
+            }
+            else{
+                // Gửi dữ liệu lên server
+                fetch(url, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        taiKhoan: taiKhoan,
+                        matKhau: matKhau,
+                    }),
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            alert('Đăng nhập thành công!');
+                            window.location.href = '/Home/index'; // Chuyển hướng về trang chủ
+                        } else {
+                            alert('Sai Tài Khoản hoặc Mật Khẩu!');
+                            // Hiển thị thông báo lỗi cho người dùng nếu cần
+                        }
+                    })
+                    .catch(error => {
+                        // Xử lý lỗi khi gọi API đăng nhập
+                        console.error('Lỗi khi gọi API đăng nhập: ', error);
+                        // Hiển thị thông báo lỗi cho người dùng
+                    });
+            }
+
+
+            
+        });
+    </script>
+
+    <!-- Các script, tài nguyên khác cần thiết -->
+</body>
+</html>

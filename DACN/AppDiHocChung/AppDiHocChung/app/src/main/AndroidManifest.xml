@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppDiHocChung"
+        tools:targetApi="31">
+        <activity
+            android:name=".DatXeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TaiXe_DangKy_5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TaiXe_DangKy_4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TaiXe_DangKy_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ThongTinDatXeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TaiXe_DangKy_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TaiXe_DangKyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetAvatarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TaiXe_NhanDonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TaiXe_TrangChuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TaiKhoanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThanhToanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LichSuDatXeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TrangChuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuenMatKhauActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DangKyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimTaiXeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBtcO97XADRq5MuR8h5BLkbWDEEhAftHhY" />
+    </application>
+
+</manifest>

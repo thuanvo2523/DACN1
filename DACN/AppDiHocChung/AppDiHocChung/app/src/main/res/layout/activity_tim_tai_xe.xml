@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimTaiXeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/test"
+        android:layout_height="wrap_content"
+        android:text="Trang này tèo cho nó hiện layout 1 2 tk tài xế trùng đường đi gì này cộng thông tin sơ sơ này, xong cho onclick cái layout đó thì nó qua trang thông tin đặt xe luôn đi."/>
+
+</LinearLayout>

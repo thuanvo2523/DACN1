@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaiXe_DangKyActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:id="@+id/daybooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="left"
+            android:layout_marginLeft="27dp"
+            android:text=""
+            android:textSize="20dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký làm tài xế"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/moTa"
+            android:hint="Giới thiệu bản thân"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/thongTinXe"
+            android:hint="Thông tin xe (loại xe, màu sắc)"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bienSo"
+            android:hint="Biển số xe"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <CheckBox-->
+<!--                android:layout_width="50sp"-->
+<!--                android:layout_height="50sp"-->
+<!--                android:id="@+id/checkbox"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Tôi đã đọc và đồng ý với các điều khoản."-->
+<!--                android:layout_marginLeft="5sp"-->
+<!--                android:layout_marginTop="13sp"-->
+<!--                android:textSize="15sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Bằng cách nhấp vào Đăng ký bên dưới, bạn đã đọc toàn bộ văn bản và đồng ý với Điều khoản và điều kiện sử dụng dịch vụ và Chính sách bảo mật."-->
+<!--            android:layout_marginTop="20sp"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textAlignment="center"/>-->
+
+        <Button
+            android:id="@+id/btn_DangKy"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginTop="20sp"
+            android:text="Tiếp tục"
+            android:textSize="20sp"
+            android:backgroundTint="@color/black"
+            android:onClick="dangKyTaiXe"
+            android:clickable="false"/>
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Bạn sẽ nhận được tin nhắn SMS hoặc cuộc gọi để xác minh"-->
+<!--            android:layout_marginTop="10sp"-->
+<!--            android:textSize="12sp"-->
+<!--            android:textAlignment="center"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@* <div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+<style>
+    .vertical-line {
+        width: 2px; /* Chiều rộng của đường line */
+        height: 100%; /* Chiều cao của đường line */
+        background-color: black; /* Màu của đường line */
+        display: inline-block; /* Hiển thị đường line dưới dạng inline-block */
+    }
+
+    .content {
+        display: inline-block; /* Hiển thị nội dung kế bên */
+        vertical-align: top; /* Canh về phía trên của nội dung kế bên */
+    }
+</style>
+<div  style="display:flex">
+    <div  style="background-color:white;border:solid;width:auto;grid:inheritm; padding:10px" >
+        <div class="form-group" style="padding-bottom:10px">
+            <label >Điểm đón:</label>
+            <input  class="form-control" id="Start" name="Điểm đón" required />
+            <span  class="text-danger"></span>
+        </div>
+        <div class="form-group" style="padding-bottom:10px">
+            <label>Điểm đến:</label>
+            <input class="form-control" id="End" name="Điểm đến" required />
+            <span class="text-danger"></span>
+        </div>
+        <div class="form-group" >
+            <button style="height:50px;width:150px;border-radius:10px">Đặt chuyến</button>
+        </div>
+       
+        <datalist></datalist>
+    </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d251637.95196238213!2d105.6189045!3d9.779349!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1700071329662!5m2!1svi!2s"
+                width="1300"
+                height="650"
+                style="border:0;"
+                allowfullscreen="allowfullscreen"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</div>
+
